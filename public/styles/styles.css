@@ -1,0 +1,48 @@
+.welcomeBackground {
+
+      background: url(../images/image.jpg) no-repeat center center fixed; 
+
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  height: 640px;
+
+}
+
+.navbar{
+	background-color: none
+}
+
+.navbar-default .navbar-collapse{
+	background-color: none;
+
+
+}
+
+body{
+	color:none;
+}
+
+.elieNav, .navbar-header{
+	height:80px;
+}
+
+ .navbar-nav, .navbar-header {
+ 	margin-top: 10px
+ }
+.navbar-brand{
+	font-size: 40px
+
+}
+
+.welcomeText { 
+ 
+  justify-content: center;
+  align-items: center;
+}
+.welcomeDiv {
+	height: 100%;
+	width: 100%;
+
+	padding-top: 100px;
+}
