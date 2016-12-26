@@ -39,7 +39,7 @@ ul li, ul li:hover, .active{
 .welcomeDiv {
 	height: 100%;
 	width: 100%;
-	padding-top: 100px;
+	padding-top: 200px;
 }
 
 .musicBanner h2, .linksBanner h2, .banner h2 {
@@ -51,6 +51,15 @@ ul li, ul li:hover, .active{
   margin:0 auto;
   color:white;
 }
+
+.portfolioBanner {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.75)), url("../img/galaxy.jpg");
+  background-size: cover;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+}
+
 
 .storyHeader {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85)), url("../img/code.jpg");
