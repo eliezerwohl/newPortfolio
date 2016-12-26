@@ -1,3 +1,11 @@
+ $(".collapse").on('show.bs.collapse', function(){
+        $('.container-fluid').css({"background":"white"});
+    });
+    $(".collapse").on('hide.bs.collapse', function(){
+        $('.container-fluid').css({"background":"none"});
+    });
+
+
 $('a[href*="#"]:not([href="#"])').click(function() {
   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
     var target = $(this.hash);
@@ -11,8 +19,13 @@ $('a[href*="#"]:not([href="#"])').click(function() {
   }
 })
 
+$(".nav a").on("click", function(){
+   $(".nav").find(".active").removeClass("active");
+   $(this).parent().addClass("active");
+});
+
 var a = $(".elieNav").offset().top;
-debugger
+
 var h = window.innerHeight;
 $(".welcomeBackground").css({"height":h})
 
