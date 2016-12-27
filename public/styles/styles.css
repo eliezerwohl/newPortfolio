@@ -113,6 +113,7 @@ ul li:hover{
 
 #music .musicHolder {
   margin-top: 25px;
+
 }
 
 .music .musicHolder iframe {
@@ -128,4 +129,23 @@ ul li:hover{
 	width: 100%;
 	padding-right:0px;
 	padding-left: 0px;
+}
+
+.scrollNav{
+	  background:white;
+    border-bottom:1px solid #808080;
+}
+
+
+.topNav{
+	       border-bottom:none;
+         background:transparent;
+}
+@media (max-width: 767px) {
+
+	.container-fluid {
+		background:white;
+    border-bottom:1px solid #808080;
+	}
+
 }
