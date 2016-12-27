@@ -61,7 +61,6 @@ ul li, ul li:hover, .active{
   background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/blueGalaxyBlur.jpeg");
   background-size: cover;
   min-height: 250px;
-  margin-bottom: 40px;
 }
 .storyHeader h2 {
   font-size: 100px;
@@ -85,6 +84,10 @@ ul li:hover{
 }
 .story .storyContainer p {
   font-size: 22px;
+}
+
+.contentContainer {
+	margin-bottom: 40px;
 }
 
 .portfolioBanner {
@@ -113,7 +116,6 @@ ul li:hover{
   height: 250px;
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
 }
 
 .music .musicContainer {
@@ -141,4 +143,14 @@ ul li:hover{
   display: flex;
   align-items: center;
   margin-bottom: 20px;
+}
+.main .contentContainer {
+	margin-bottom: 20px;
+	padding-top: 20px;
+}
+
+.main .col-md-12, .main .container{
+	width: 100%;
+	padding-right:0px;
+	padding-left: 0px;
 }
