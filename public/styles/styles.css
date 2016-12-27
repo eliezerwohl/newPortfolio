@@ -128,6 +128,10 @@ ul li:hover{
   border-bottom: 1px rgb(221, 221, 221) solid
 }
 
+#portfolio .portSection:last-child {
+	border-bottom: none;
+}
+
 #portfolio .panel-body h4 {
   text-transform: uppercase;
 }
