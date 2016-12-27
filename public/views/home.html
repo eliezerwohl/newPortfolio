@@ -13,146 +13,135 @@
    <link rel="stylesheet" type="text/css" href="/styles/styles.css">
 </head>
 <body id="home">
-<div class="jim"></div>
-
-
   <div class="welcomeBackground">
-  <nav class="elieNav nav navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#home">EliezerWohl.com</a>
+    <nav class="elieNav nav navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#home">EliezerWohl.com</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+               <li><a href="#myStory">My Story</a></li>
+            <li ><a href="#portLink">Portfolio</a></li>
+            <li ><a href="#">Music</a></li>
+            <li ><a href="#social">Social</a></li>
+            <li ><a href="#">Contact</a></li>
+          </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+    </nav>
+    <div class="welcomeDiv">
+       <div class="text-center">
+        <h1>Eliezerwohl.com</h1>
+        <h2>  home of web developer</h2>
+
+        <h2>  android enthusiast</h2>
+        <h2>  and  musician</h2>
+      </div>
     </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    <ul class="nav navbar-nav navbar-right">
-             <li><a href="#myStory">My Story</a></li>
-          <li ><a href="#portLink">Portfolio</a></li>
-          <li ><a href="#">Music</a></li>
-          <li ><a href="#">Contact</a></li>
-        </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-<!--  -->
-  <div class="welcomeDiv">
-     <div class="text-center">
-  <h1>Eliezerwohl.com</h1>
-  <h2>  home of web developer</h2>
-
-  <h2>  android enthusiast</h2>
-  <h2>  and  musician</h2>
-
   </div>
-   
-  </div>
-
   <div  id="myStory" class="story">
-
-  <div class="banner text-center storyHeader">
-    <h2 class="white"> My Story </h2>
-    <h3 class="">Or How I Learned to Stop Worrying and Love the Code </h3>
+    <div class="banner text-center storyHeader">
+      <h2 class="white"> My Story </h2>
+      <h3 class="">Or How I Learned to Stop Worrying and Love the Code </h3>
+    </div>
+    <div class="storyContainer col-md-8 col-md-offset-2">
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;I’ve been working on websites for many years,  since the days of Homestead, Xanga,  and GeoCities.  
+      I’ve always had a desire to do more with this hobby.
+      In 2015, I saw an ad for a Rutgers Coding Bootcamp, and I was immediately intrigued. I was impressed by the Javascript based full stack curriculum.
+      Ever since I stepped into the first class,  I’ve been hooked. I’ve been coding and improving my skills every day.</p>
+      <br><p>&nbsp;&nbsp;&nbsp;&nbsp;Since finishing the course, my life has changed.  I was able to leave my previous job and turn what was previously a hobby into a career.  I've also enjoyed being able to create more complex and rewarding side projects.</p>
+    </div>
   </div>
-  <div class="storyContainer col-md-8 col-md-offset-2">
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;I’ve been working on websites for many years,  since the days of Homestead, Xanga,  and GeoCities.  
-    I’ve always had a desire to do more with this hobby.
-    In 2015, I saw an ad for a Rutgers Coding Bootcamp, and I was immediately intrigued. I was impressed by the Javascript based full stack curriculum.
-    Ever since I stepped into the first class,  I’ve been hooked. I’ve been coding and improving my skills every day.</p>
-    <br><p>&nbsp;&nbsp;&nbsp;&nbsp;Since finishing the course, my life has changed.  I was able to leave my previous job and turn what was previously a hobby into a career.  I've also enjoyed being able to create more complex and rewarding side projects.</p>
+  <div id="portfolio">
+  	<div id="portLink" class="portfolioBanner banner col-md-12">
+  		<h2 class="white">Portfolio </h2>
+  	</div>
+  	<div class="col-md-8 col-md-offset-2">
+  		<div class="">
+  			<div class="portSection">
+  				<div class="row">
+  					<h2 class="pull-left">matched connections</h2>
+  				</div>
+  				<p>My dating website/missed connection improvement/reddit substitute/chat app.  A user can sign up, and match other people together for internet points.  They can also fill out their own profiles, to be matched by other people. Frontend:JavaScript/CSS3/jQuery. Backend: Socket.IO, Express/Handlebars.js</p>
+  				<div class="row">
+  					<a target ="_blank" href="http://matchedconnections.herokuapp.com/">
+  						<button class="pull-right col-sm-2 col-xs-4 btn-default">Deployed </button>
+  					</a>
+  					<a target ="_blank" href="https://github.com/eliezerwohl/matchproject">
+  						<button class="pull-right col-sm-2 col-xs-4 btn-default">GitHub </button>
+  					</a>
+  				</div>
+  			</div>
+  			<div class="portSection">
+  				<div class="row">
+  					<h2 class="pull-left">liberty vice</h2>
+  				</div>
+  				<p>Website commisioned for local band. I was responsible for the full-stack development, with an emphasis on front end presentation and mobile responsiveness. Frontend:JavaScript/CSS3/jQuery. Backend: Express/Handlebars.js</p>
+  				<div class="row">
+  					<a target ="_blank" href="https://libertyvice.herokuapp.com/">
+  						<button class="pull-right col-sm-2 col-xs-4 btn-default">Deployed </button>
+  					</a>
+  					<a target ="_blank" href="https://github.com/eliezerwohl/frontEndProject">
+  						<button class="pull-right col-sm-2 col-xs-4 btn-default">GitHub </button>
+  					</a>
+  				</div>
+  			</div>
+  			<div class="portSection">
+  				<div class="row">
+  					<h2 class="pull-left">Heroku Caffeine</h2>
+  				</div>
+  				<p>A program I wrote for my phone that prevents my Heroku sites from going to "sleep".  Can be set to run and keep the sites up for a period  of time, or it can wake all the sites up at once for presentation purposes.   Developed using Android Studio and Java.</p>
+  				<div class="row">
+  					<a href="/download/herokucaffeine.apk" download>
+  						<button class="pull-right col-sm-2 col-xs-4 btn-default">Download</button>
+  					</a>
+  					<a target ="_blank" href="https://github.com/eliezerwohl/herokucaffeine">
+  						<button class="pull-right col-sm-2 col-xs-4 btn-default">GitHub </button>
+  					</a>
+  				</div>
+  			</div>
+  			<div class="portSection">
+  				<div class="row">
+  					<h2 class="pull-left">king of dice</h2>
+  				</div>
+  				<p>A companion app to the King Of New York board game.  I also developed a version for android with motion controls and an option to roll normal dice.</p>
+  				<div class="row">
+  					<h5 class="col-sm-offset-8 col-xs-offset-5">Android</h5>
+  				</div>
+  				<div class="row">
+  					<a href="/download/app-release.apk" download>
+  						<button class="pull-right col-sm-2 col-xs-4 btn-default">Download</button>
+  					</a>
+  					<a target ="_blank" href="https://github.com/eliezerwohl/kingofdicejava">
+  						<button class="pull-right col-sm-2 col-xs-4 btn-default">GitHub </button>
+  					</a>
+  				</div>
+  				<div class="row">
+  					<h5 class="col-sm-offset-8 col-xs-offset-5">Web</h5>
+  				</div>
+  				<div class="row">
+  					<a target ="_blank" href="https://kingofdice.herokuapp.com/">
+  						<button class="pull-right col-sm-2 col-xs-4 btn-default">Deployed </button>
+  					</a>
+  					<a target ="_blank" href="https://github.com/eliezerwohl/kingofdice">
+  						<button class="pull-right col-sm-2 col-xs-4 btn-default">GitHub </button>
+  					</a>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
   </div>
-</div>
-
-<div id="portfolio">
-	<div id="portLink" class="portfolioBanner banner col-md-12">
-		<h2 class="white">Portfolio </h2>
-	</div>
-	<div class="col-md-8 col-md-offset-2">
-		<div class="">
-			<div class="portSection">
-				<div class="row">
-					<h2 class="pull-left">matched connections</h2>
-				</div>
-				<p>My dating website/missed connection improvement/reddit substitute/chat app.  A user can sign up, and match other people together for internet points.  They can also fill out their own profiles, to be matched by other people. Frontend:JavaScript/CSS3/jQuery. Backend: Socket.IO, Express/Handlebars.js</p>
-				<div class="row">
-					<a target ="_blank" href="http://matchedconnections.herokuapp.com/">
-						<button class="pull-right col-sm-2 col-xs-4 btn-default">Deployed </button>
-					</a>
-					<a target ="_blank" href="https://github.com/eliezerwohl/matchproject">
-						<button class="pull-right col-sm-2 col-xs-4 btn-default">GitHub </button>
-					</a>
-				</div>
-			</div>
-			<div class="portSection">
-				<div class="row">
-					<h2 class="pull-left">liberty vice</h2>
-				</div>
-				<p>Website commisioned for local band. I was responsible for the full-stack development, with an emphasis on front end presentation and mobile responsiveness. Frontend:JavaScript/CSS3/jQuery. Backend: Express/Handlebars.js</p>
-				<div class="row">
-					<a target ="_blank" href="https://libertyvice.herokuapp.com/">
-						<button class="pull-right col-sm-2 col-xs-4 btn-default">Deployed </button>
-					</a>
-					<a target ="_blank" href="https://github.com/eliezerwohl/frontEndProject">
-						<button class="pull-right col-sm-2 col-xs-4 btn-default">GitHub </button>
-					</a>
-				</div>
-			</div>
-			<div class="portSection">
-				<div class="row">
-					<h2 class="pull-left">Heroku Caffeine</h2>
-				</div>
-				<p>A program I wrote for my phone that prevents my Heroku sites from going to "sleep".  Can be set to run and keep the sites up for a period  of time, or it can wake all the sites up at once for presentation purposes.   Developed using Android Studio and Java.</p>
-				<div class="row">
-					<a href="/download/herokucaffeine.apk" download>
-						<button class="pull-right col-sm-2 col-xs-4 btn-default">Download</button>
-					</a>
-					<a target ="_blank" href="https://github.com/eliezerwohl/herokucaffeine">
-						<button class="pull-right col-sm-2 col-xs-4 btn-default">GitHub </button>
-					</a>
-				</div>
-			</div>
-			<div class="portSection">
-				<div class="row">
-					<h2 class="pull-left">king of dice</h2>
-				</div>
-				<p>A companion app to the King Of New York board game.  I also developed a version for android with motion controls and an option to roll normal dice.</p>
-				<div class="row">
-					<h5 class="col-sm-offset-8 col-xs-offset-5">Android</h5>
-				</div>
-				<div class="row">
-					<a href="/download/app-release.apk" download>
-						<button class="pull-right col-sm-2 col-xs-4 btn-default">Download</button>
-					</a>
-					<a target ="_blank" href="https://github.com/eliezerwohl/kingofdicejava">
-						<button class="pull-right col-sm-2 col-xs-4 btn-default">GitHub </button>
-					</a>
-				</div>
-				<div class="row">
-					<h5 class="col-sm-offset-8 col-xs-offset-5">Web</h5>
-				</div>
-				<div class="row">
-					<a target ="_blank" href="https://kingofdice.herokuapp.com/">
-						<button class="pull-right col-sm-2 col-xs-4 btn-default">Deployed </button>
-					</a>
-					<a target ="_blank" href="https://github.com/eliezerwohl/kingofdice">
-						<button class="pull-right col-sm-2 col-xs-4 btn-default">GitHub </button>
-					</a>
-				</div>
-			</div>
-	
-		
-		</div>
-	</div>
-</div>
-
-
-
+  <div id="social">
+    <img src="img/github.png">
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
