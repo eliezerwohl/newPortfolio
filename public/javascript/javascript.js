@@ -44,7 +44,7 @@ $('a[href*="#"]:not([href="#"])').click(function() {
     if (target.length) {
     	
       $('html, body').animate({
-        scrollTop: target.offset().top - 80 
+        scrollTop: target.offset().top - 70
       }, 1000);
   
       return false;

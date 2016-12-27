@@ -58,7 +58,7 @@ ul li, ul li:hover, .active{
 }
 
 .storyHeader {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85)), url("../img/code.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/blueGalaxyBlur.jpeg");
   background-size: cover;
   min-height: 250px;
   margin-bottom: 40px;
@@ -88,7 +88,7 @@ ul li:hover{
 }
 
 .portfolioBanner {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.75)), url("../img/galaxy.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/blueGalaxyBlur.jpeg");
   background-size: cover;
   min-height: 250px;
   display: flex;
@@ -108,7 +108,7 @@ ul li:hover{
 }
 
 .musicBanner {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.75)), url("/img/music.png");
+  background-image: linear-gradient(  rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/blueGalaxyBlur.jpeg");
   background-size: cover;
   height: 250px;
   display: flex;
@@ -135,7 +135,7 @@ ul li:hover{
 }
 
 .linksBanner {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../img/socialBanner.png");
+  background-image: linear-gradient(  rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/blueGalaxyBlur.jpeg");
   background-size: cover;
   min-height: 250px;
   display: flex;
