@@ -1,15 +1,42 @@
-.welcomeBackground {
-      background: url(../img/blueblur2.jpeg) no-repeat center center fixed; 
-}
-
-/*.elieNav{ 
-		background: none;
-}*/
-
-
 body{
 	color:none;
 }
+
+.main a {
+	color: #426f96
+}
+
+.main h2 {
+	color:#082340;
+	text-transform: capitalize;
+}
+
+
+.main button {
+	background-color: white;
+	border:	1px solid #082340;
+	border-radius: 10px;
+	margin:5px;
+}
+
+.main button:hover{
+
+	background-color: #082340;
+	color:white;
+}
+
+.main button:active {
+	text-decoration: underline;
+}
+
+
+
+
+.welcomeBackground {
+      background: url(../img/blueblur2.jpeg) no-repeat center center fixed; 
+      background-size: cover
+}
+
 
 .elieNav, .navbar-header{
 	height:70px;
@@ -21,14 +48,12 @@ ul li {
 ul li, ul li:hover, .active{
 	border-radius: 10px;
 }
-
- .navbar-nav, .navbar-header {
+.navbar-nav, .navbar-header {
  	margin-top: 10px
- }
+}
 .navbar-brand{
 	font-size: 40px;
 	border-bottom: 
-
 }
 
 .welcomeText { 
@@ -38,7 +63,17 @@ ul li, ul li:hover, .active{
 .welcomeDiv {
 	height: 100%;
 	width: 100%;
-	padding-top: 100px;
+	padding-top: 50px;
+}
+
+.welcomeDiv h1 {
+	margin-top: 100px;
+	font-size: 100px;
+	font-weight: 700;
+}
+
+.welcomeDiv h2 {
+	font-size: 60px
 }
 
 .banner h2 {
@@ -97,7 +132,7 @@ ul li:hover{
   text-transform: uppercase;
 }
 
-#portfolio p {
+.main p {
 	font-size: 18px;
 }
 
@@ -120,9 +155,13 @@ ul li:hover{
   margin:10px 0px;
 }
 
+#social img, #contact img {
+	height: 150px;
+}
+
 .main .contentContainer {
 	margin-bottom: 50px;
-	padding-top: 50px;
+	margin-top: 50px;
 }
 
 .main .col-md-12, .main .container{
@@ -134,14 +173,25 @@ ul li:hover{
 .scrollNav{
 	  background:white;
     border-bottom:1px solid #808080;
-}
-
-
+    -webkit-box-shadow: 0 8px 6px -6px #808080;
+	   -moz-box-shadow: 0 8px 6px -6px #808080;
+	        box-shadow: 0 8px 6px -6px #808080;
+	}
 .topNav{
 	       border-bottom:none;
          background:transparent;
 }
+.brandShow{
+	visibility: visible;
+}
+
+.brandHide{
+	visibility: hidden;
+}
 @media (max-width: 767px) {
+	.brandHide {
+		visibility: visible;
+	}
 
 	.container-fluid {
 		background:white;
