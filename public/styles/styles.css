@@ -28,7 +28,8 @@ ul li, ul li:hover, .active{
  	margin-top: 10px
  }
 .navbar-brand{
-	font-size: 40px
+	font-size: 40px;
+	border-bottom: 
 
 }
 
@@ -49,7 +50,7 @@ ul li, ul li:hover, .active{
   font-weight: 600;
   float:none;
   margin:0 auto;
-  color:white;
+  color:#d4ebed;
 }
 
 .portfolioBanner h2 {
@@ -68,7 +69,7 @@ ul li, ul li:hover, .active{
 }
 
 .storyHeader h3 {
-	color:#317eac
+	color:#6093b0
 }
 
 
@@ -100,5 +101,9 @@ ul li:hover{
 
 #portfolio .panel-body h4 {
   text-transform: uppercase;
+}
+
+#portfolio p {
+	font-size: 18px;
 }
 
