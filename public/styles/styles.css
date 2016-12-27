@@ -1,5 +1,5 @@
 .welcomeBackground {
-      background: url(../images/image.jpg) no-repeat center center fixed; 
+      background: url(../img/blueblur2.jpeg) no-repeat center center fixed; 
 }
 
 
@@ -39,10 +39,10 @@ ul li, ul li:hover, .active{
 .welcomeDiv {
 	height: 100%;
 	width: 100%;
-	padding-top: 200px;
+	padding-top: 100px;
 }
 
-.musicBanner h2, .linksBanner h2, .banner h2 {
+.banner h2 {
   font-size: 100px;
   margin-top: 0px;
   padding-top: 40px;
@@ -52,14 +52,9 @@ ul li, ul li:hover, .active{
   color:white;
 }
 
-.portfolioBanner {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.75)), url("../img/galaxy.jpg");
-  background-size: cover;
-  min-height: 250px;
-  display: flex;
-  align-items: center;
+.portfolioBanner h2 {
+	padding-top: 0px
 }
-
 
 .storyHeader {
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.85)), url("../img/code.jpg");
@@ -90,3 +85,20 @@ ul li:hover{
 .story .storyContainer p {
   font-size: 22px;
 }
+
+.portfolioBanner {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.75)), url("../img/galaxy.jpg");
+  background-size: cover;
+  min-height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+#portfolio .portSection {
+  border-bottom: 1px rgb(221, 221, 221) solid
+}
+
+#portfolio .panel-body h4 {
+  text-transform: uppercase;
+}
+
