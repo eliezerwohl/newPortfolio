@@ -22,12 +22,14 @@ $(document).scroll(function(){
     if($(this).scrollTop() > a)
     {   
        $('.elieNav').css({"background":"white"});
+         $('.elieNav').css({"border-bottom":"1px solid #808080"});
        // $(".jim").css({"bottom-margin": "80px"})
        // $('.welcomeDiv').css({"padding-top":"200px"});
        // $('.elieNav').addClass("navbar-fixed-top");
 
     } else {
-       $('.elieNav').css({"background":"transparent"});
+       $('.elieNav').css({"border-bottom":"none"});
+         $('.elieNav').css({"background":"transparent"});
        // $('.elieNav').removeClass("navbar-fixed-top");
     
         // $(".jim").css({"bt-margin": "0px"})
