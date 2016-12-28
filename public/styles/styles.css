@@ -198,6 +198,12 @@ ul li:hover{
 } 
 
 @media (max-width: 767px) {
+
+	.elieNav, .navbar-header{
+	height:50px;
+	margin-top: 0px
+}
+
 	.banner h2 {
   font-size: 60px;
   
