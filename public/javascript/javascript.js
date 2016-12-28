@@ -18,8 +18,6 @@ layoutFunction()
 //run this on open and screen change
 
   $(".navbar-toggle, .nav a").on("click", function(e) {
-    console.log('hello')
-     // e.preventDefault();
     $("#bs-example-navbar-collapse-1").slideToggle("fast");
   });
 
