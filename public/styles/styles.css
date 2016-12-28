@@ -31,11 +31,13 @@ body {
 
 
 
-
+#main {
+	  border-top:20px solid black;
+}
 .welcomeBackground {
       background: url(../img/blueblur2.jpeg) no-repeat ; 
       background-size: cover;
-      border-bottom:20px solid black;
+
 }
 
 
