@@ -1,5 +1,4 @@
 
-
 $(document).scroll(function(){
   if($(this).scrollTop() > 0){   
     $('.elieNav').removeClass("topNav");
@@ -26,6 +25,7 @@ $(".nav a").on("click", function(){
 
 var h = window.innerHeight;
 $(".welcomeBackground").css({"height":h})
+$(".container").css({"min-height":h - 70})
 
 $('a[href*="#"]:not([href="#"])').click(function() {
   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
