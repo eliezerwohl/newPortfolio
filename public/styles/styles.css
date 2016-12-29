@@ -162,6 +162,7 @@ ul li:hover{
 
 #social img, #contact img {
 	height: 150px;
+	margin-top: 10px;
 }
 
 .main .contentContainer {
@@ -199,6 +200,9 @@ ul li:hover{
 	font-weight:600;
 } 
 
+.linkContainer:hover{
+	opacity: .70;
+}
 @media (max-width: 767px) {
 
 	.elieNav, .navbar-header{
