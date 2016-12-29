@@ -17,9 +17,13 @@ $(".container").css({"min-height":h - compensate})
 layoutFunction()
 //run this on open and screen change
 
-  $(".navbar-toggle, .nav a").on("click", function(e) {
-    $("#bs-example-navbar-collapse-1").slideToggle("fast");
+  $(".navbar-toggle, .nav  .navbar-collapse a").on("click", function(e) {
+  	$("#bs-example-navbar-collapse-1").slideToggle("fast");
   });
+  $(".navbar-brand").on("click", function() {
+    $("#bs-example-navbar-collapse-1").slideUp("fast");
+  })
+
 
 
 $( document ).ready(function() {
@@ -31,12 +35,12 @@ $( document ).ready(function() {
   if($(this).scrollTop() > 0){   
     $('.elieNav').removeClass("topNav").addClass("scrollNav");   
     $(".navbar-brand").removeClass("brandHide").addClass("brandShow")
-
-    } else { 
+    } 
+    else { 
       $('.elieNav').removeClass("scrollNav").addClass("topNav");;
-        $(".navbar-brand").removeClass("brandShow").addClass("brandHide")
-  }
-});
+      $(".navbar-brand").removeClass("brandShow").addClass("brandHide")
+  	}
+	});
     $(".nav a").on("click", function(){
       $(".nav").find(".active").removeClass("active");
       $(this).parent().addClass("active");
