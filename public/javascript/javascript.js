@@ -1,5 +1,4 @@
 var compensate = 0;
-
 function layoutFunction(){
 	var h = window.innerHeight;
 	$(".welcomeBackground").css({"height":h});
@@ -12,7 +11,6 @@ function layoutFunction(){
 	$(".container").css({"min-height":h - compensate});
 }
 layoutFunction();
-
 
 $(".navbar-toggle, .nav  .navbar-collapse a").on("click", function(e) {
 	$("#bs-example-navbar-collapse-1").slideToggle("fast");
