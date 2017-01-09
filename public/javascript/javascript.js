@@ -1,4 +1,16 @@
+var menuVar;
 var compensate = 0;
+function menusScroll (data){
+if ((document.body.scrollTop >= data.offsetTop - 80)
+	&& (document.body.scrollTop <=  data.offsetTop + data.clientHeight - 80)){
+	if (menuVar != data.id) {
+	  $(".nav").find(".active").removeClass("active");
+			menuVar = data.id;
+			menuVar += "Button";
+    	$("#" + menuVar).parent().addClass("active");
+		}
+	}
+}
 function layoutFunction(){
 	var h = window.innerHeight;
 	$(".welcomeBackground").css({"height":h});
@@ -18,26 +30,32 @@ $(".navbar-toggle, .nav  .navbar-collapse a").on("click", function(e) {
 $(".navbar-brand").on("click", function() {
   $("#bs-example-navbar-collapse-1").slideUp("fast");
 });
-
 $( document ).ready(function() {
+	var music = document.getElementById("music");
+	var myStory = document.getElementById("myStory");
+	var social = document.getElementById("social");
+	var contact = document.getElementById("contact");
+	var portfolio = document.getElementById("portfolio");
+	var home = document.getElementById("home");
+	var array = [music, myStory, social, contact, portfolio];
   $( window ).resize(function() {
  	  layoutFunction();
 	});
 
   $(document).scroll(function(){
-  if($(this).scrollTop() > 0){   
-    $('.elieNav').removeClass("topNav").addClass("scrollNav");   
-    $(".navbar-brand").removeClass("brandHide").addClass("brandShow");
-    } 
+  	for (var i = 0; i < array.length; i++) {
+  		menusScroll(array[i])
+	  	}
+	  if($(this).scrollTop() > 0){   
+	    $('.elieNav').removeClass("topNav").addClass("scrollNav");   
+	    $(".navbar-brand").removeClass("brandHide").addClass("brandShow");
+	   } 
     else { 
       $('.elieNav').removeClass("scrollNav").addClass("topNav");
       $(".navbar-brand").removeClass("brandShow").addClass("brandHide");
+      $(".nav").find(".active").removeClass("active");
   	}
 	});
-  $(".nav a").on("click", function(){
-    $(".nav").find(".active").removeClass("active");
-    $(this).parent().addClass("active");
-   });
    $('a[href*="#"]:not([href="#"])').click(function() {
   	if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
 		  var target = $(this.hash);

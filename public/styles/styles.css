@@ -159,6 +159,10 @@ ul li:hover {
 	margin-top: 50px;
 }
 
+.container{
+	width: 100%;
+}
+
 .main .col-md-12, .main .container{
 	width: 100%;
 	padding-right:0px;
@@ -192,6 +196,7 @@ ul li:hover {
 .linkContainer:hover {
 	opacity: .70;
 }
+
 @media (max-width: 767px) {
 	.active {
 		background-color: white;
@@ -220,11 +225,14 @@ ul li:hover {
 		background:white;
     border-bottom:1px solid #808080;
 	}
-	#music .contentContainer {
-    overflow-x: hidden;
-	}
+
 	#portfolio .contentContainer .portSection{
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+	#music .contentContainer, #music {
+    overflow-x: hidden;
+     overflow-y: hidden;
+	}
 }
+
