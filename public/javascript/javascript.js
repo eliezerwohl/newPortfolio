@@ -1,8 +1,9 @@
 var menuVar;
 var compensate = 0;
+var bodyScrollTop = document.documentElement.scrollTop || document.body.scrollTop;
 function menusScroll (data){
-if ((document.body.scrollTop >= data.offsetTop - 80)
-	&& (document.body.scrollTop <=  data.offsetTop + data.clientHeight - 80)){
+if (((document.documentElement.scrollTop||document.body.scrollTop) >= data.offsetTop - 80)
+	&& ((document.documentElement.scrollTop||document.body.scrollTop) <=  data.offsetTop + data.clientHeight - 80)){
 	if (menuVar != data.id) {
 	  $(".nav").find(".active").removeClass("active");
 			menuVar = data.id;
@@ -10,7 +11,18 @@ if ((document.body.scrollTop >= data.offsetTop - 80)
     	$("#" + menuVar).parent().addClass("active");
 		}
 	}
+  // if ((document.body.scrollTop >= data.offsetTop - 80)
+  // && (document.body.scrollTop <=  data.offsetTop + data.clientHeight - 80)){
+  // if (menuVar != data.id) {
+  //   $(".nav").find(".active").removeClass("active");
+  //     menuVar = data.id;
+  //     menuVar += "Button";
+  //     $("#" + menuVar).parent().addClass("active");
+  //   }
+  // }
 }
+
+document.documentElement.scrollTop
 function layoutFunction(){
 	var h = window.innerHeight;
 	$(".welcomeBackground").css({"height":h});
