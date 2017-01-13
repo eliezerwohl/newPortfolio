@@ -1,8 +1,9 @@
 var menuVar;
 var compensate = 0;
+var testVar = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 function menusScroll (data){
-if ((document.body.scrollTop >= data.offsetTop - 80)
-	&& (document.body.scrollTop <=  data.offsetTop + data.clientHeight - 80)){
+if ((0 >= data.offsetTop - 80 ) 
+	&& (0 <=  data.offsetTop + data.clientHeight - 80 )){
 	if (menuVar != data.id) {
 	  $(".nav").find(".active").removeClass("active");
 			menuVar = data.id;
