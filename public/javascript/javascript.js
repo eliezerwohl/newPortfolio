@@ -19,7 +19,6 @@ if (((document.documentElement.scrollTop||document.body.scrollTop) >= data.offse
 			menuVar = data.id;
 			menuVar += "Button";
     	$("#" + menuVar).parent().addClass("active");
-      console.log(menuVar)
 		}
 	}
 }
