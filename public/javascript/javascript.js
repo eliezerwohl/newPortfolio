@@ -22,18 +22,6 @@ if (((document.documentElement.scrollTop||document.body.scrollTop) >= data.offse
 		}
 	}
 }
-// function layoutFunction(){
-// 	var h = window.innerHeight;
-// 	$(".welcomeBackground").css({"height":h});
-// 	if (window.innerWidth <= 767){
-//   	compensate  = 50;
-// 	}
-// 	else{
-//   	compensate = 70;
-// 	}
-// 	$(".container").css({"min-height":h - compensate});
-// }
-// layoutFunction();
 $(".navbar-toggle, .nav  .navbar-collapse a").on("click", function(e) {
 	$("#bs-example-navbar-collapse-1").slideToggle("fast");
 });
@@ -49,9 +37,6 @@ $( document ).ready(function() {
 	var portfolio = document.getElementById("portfolio");
 	var home = document.getElementById("home");
 	var array = [music, myStory, social, contact, portfolio, home];
- //  $( window ).resize(function() {
- // 	  layoutFunction();
-	// });
   $(document).scroll(function(){
   	for (var i = 0; i < array.length; i++) {
   		menusScroll(array[i])
