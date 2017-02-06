@@ -209,6 +209,7 @@ ul li:hover {
 
 
 @media (max-width: 767px) {
+	
 	.active {
 		background-color: white;
 	}
