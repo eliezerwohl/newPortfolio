@@ -62,7 +62,6 @@ ul li, ul li:hover, .active {
 	height: 100%;
 	width: 100%;
 	padding-top: 50px;
-	font-family: 'Raleway', sans-serif;
 }
 
 .welcomeDiv h1 {
@@ -209,7 +208,7 @@ ul li:hover {
 
 
 @media (max-width: 767px) {
-	
+
 	.active {
 		background-color: white;
 	}
