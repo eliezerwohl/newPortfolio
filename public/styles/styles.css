@@ -106,9 +106,13 @@ ul li:hover {
 	background-color: lightgray;
 }
 .main p {
-  font-size: 22px;
+  font-size: 18px;
+  line-height: 1.4em;
 }
 
+#home{
+	height: 640px;
+}
 
 .bannerBackground {
   background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/blueGalaxyBlur.jpeg");
@@ -142,7 +146,7 @@ ul li:hover {
 }
 
 #music .musicHolder {
-  margin-top: 25px;
+  margin-top: 50px;
 }
 
 .music .musicHolder iframe {
@@ -193,9 +197,16 @@ ul li:hover {
 	font-weight:600;
 } 
 
+.linkContainer {
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+
 .linkContainer:hover {
 	opacity: .70;
 }
+
+
 
 @media (max-width: 767px) {
 	.active {
@@ -226,10 +237,12 @@ ul li:hover {
     border-bottom:1px solid #808080;
 	}
 
+
 	#portfolio .contentContainer .portSection{
 		padding-left: 15px;
 		padding-right: 15px;
 	}
+
 	#music .contentContainer, #music {
     overflow-x: hidden;
      overflow-y: hidden;
