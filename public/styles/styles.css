@@ -109,9 +109,7 @@ ul li:hover {
   line-height: 1.4em;
 }
 
-#home{
-	height: 640px;
-}
+
 
 .bannerBackground {
   background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/blueGalaxyBlur.jpeg");
@@ -158,9 +156,10 @@ ul li:hover {
 }
 
 .main .contentContainer {
-	margin-bottom: 50px;
-	margin-top: 50px;
+	margin-bottom: 5%;
+	margin-top: 5%;;
 }
+
 
 .container{
 	width: 100%;
@@ -220,7 +219,7 @@ ul li:hover {
   	font-size: 60px;
 	}
 	.navbar-brand {
-		font-size: 30px;
+		font-size: 2em;
 	}
 	.welcomeDiv h1 {
 		margin-top: 20vh;
