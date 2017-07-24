@@ -81,7 +81,7 @@ ul li, ul li:hover, .active {
   font-weight: 600;
   float:none;
   margin:0 auto;
-  color:#d4ebed;
+  color:#6093b0;
 }
 
 .storyHeader h2 {
@@ -89,7 +89,7 @@ ul li, ul li:hover, .active {
 }
 
 .storyHeader {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/blueGalaxyBlur.jpeg");
+/*  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/blueGalaxyBlur.jpeg");*/
   background-size: cover;
   min-height: 250px;
 }
@@ -112,7 +112,7 @@ ul li:hover {
 
 
 .bannerBackground {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/blueGalaxyBlur.jpeg");
+/*  background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/blueGalaxyBlur.jpeg");*/
   background-size: cover;
   min-height: 250px;
   display: flex;
