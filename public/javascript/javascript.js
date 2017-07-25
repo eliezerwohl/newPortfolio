@@ -31,12 +31,12 @@ $(".navbar-brand").on("click", function() {
 });
 $( document ).ready(function() {
   scrollFunction()
-	var music = document.getElementById("music");
+	// var music = document.getElementById("music");
 	var myStory = document.getElementById("myStory");
 	var social = document.getElementById("social");
 	var portfolio = document.getElementById("portfolio");
 	var home = document.getElementById("home");
-	var array = [music, myStory, social,  portfolio, home];
+	var array = [myStory, social,  portfolio, home];
   $(document).scroll(function(){
   	for (var i = 0; i < array.length; i++) {
   		menusScroll(array[i])
