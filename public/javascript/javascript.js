@@ -34,10 +34,9 @@ $( document ).ready(function() {
 	var music = document.getElementById("music");
 	var myStory = document.getElementById("myStory");
 	var social = document.getElementById("social");
-	var contact = document.getElementById("contact");
 	var portfolio = document.getElementById("portfolio");
 	var home = document.getElementById("home");
-	var array = [music, myStory, social, contact, portfolio, home];
+	var array = [music, myStory, social,  portfolio, home];
   $(document).scroll(function(){
   	for (var i = 0; i < array.length; i++) {
   		menusScroll(array[i])

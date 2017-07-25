@@ -167,8 +167,8 @@ ul li:hover {
 
 .main .col-md-12, .main .container{
 	width: 100%;
-	padding-right:0px;
-	padding-left: 0px;
+/*	padding-right:0px;
+	padding-left: 0px;*/
 }
 
 .scrollNav{
