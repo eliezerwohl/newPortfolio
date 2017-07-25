@@ -2,35 +2,32 @@ body {
 	color:none;
 }
 
-.main a {
+#main a {
 	color: #426f96
 }
 
-.main h2 {
-	color:#082340;
-	text-transform: capitalize;
+#main .portSection h2 {
+	    color: #082340;
+    text-transform: capitalize;
 }
 
-
-.main button {
+#main button {
 	background-color: white;
 	border:	1px solid #082340;
 	border-radius: 10px;
 	margin:5px;
 }
 
-.main button:hover {
+#main button:hover {
 	background-color: #082340;
 	color:white;
 }
 
-.main button:active {
+#main button:active {
 	text-decoration: underline;
 }
 
-#main {
-	  border-top:20px solid black;
-}
+
 .welcomeBackground {
   background: url(../img/blueblur2.jpeg) no-repeat ; 
   background-size: cover;
@@ -79,10 +76,19 @@ ul li, ul li:hover, .active {
 	font-size: 60px
 }
 
+
+#main .pitch {
+	padding-top: 80px;
+
+}
+
+.pitch div {
+	display: inline-block;
+}
 .banner h2 {
   font-size: 90px;
-  margin-top: 0px;
-  padding-top: 0px;
+  padding: 80px 0px;
+  
   font-weight: 600;
   float:none;
   margin:0 auto;
@@ -107,7 +113,7 @@ ul li, ul li:hover, .active {
 ul li:hover {
 	background-color: lightgray;
 }
-.main p {
+#main p {
   font-size: 18px;
   line-height: 1.4em;
 }
@@ -155,17 +161,15 @@ ul li:hover {
 	margin-top: 10px;
 }
 
-.main .contentContainer {
-	margin-bottom: 5%;
-	margin-top: 5%;;
-}
 
 
-.container{
+
+#main .container{
 	width: 100%;
+	margin:40px 0px 80px;
 }
 
-.main .col-md-12, .main .container{
+#main .col-md-12, #main .container{
 	width: 100%;
 /*	padding-right:0px;
 	padding-left: 0px;*/
