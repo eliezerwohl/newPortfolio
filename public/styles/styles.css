@@ -118,7 +118,9 @@ ul li:hover {
   line-height: 1.4em;
 }
 
-
+#main .workDiv {
+	padding: 20px 15px;
+}
 
 .bannerBackground {
   display: flex;
