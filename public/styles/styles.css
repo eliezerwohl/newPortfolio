@@ -118,7 +118,9 @@ ul li:hover {
   line-height: 1.4em;
 }
 
-
+#main .workDiv {
+	padding: 20px 15px;
+}
 
 .bannerBackground {
   display: flex;
@@ -227,7 +229,11 @@ ul li:hover {
 	}
 	.welcomeDiv h1 {
 		margin-top: 20vh;
-		font-size: 30px;
+		font-size: 60px;
+	}
+
+	.welcomeDiv h1:nth-child(2){
+		margin-top: 40px
 	}
 
   .welcomeDiv h2 {
