@@ -6,6 +6,16 @@ body {
 	color: #426f96
 }
 
+.section {
+	position: absolute;
+	display: none;
+}
+
+#home {
+	display: block;
+	position: inherit;
+}
+
 #main .portSection h2 {
 	    color: #082340;
     text-transform: capitalize;
@@ -95,9 +105,6 @@ ul li, ul li:hover, .active {
   color:#6093b0;
 }
 
-.storyHeader h2 {
-	 padding-top: 40px;
-}
 
 .storyHeader {
 
@@ -188,13 +195,13 @@ ul li:hover {
 	       border-bottom:none;
          background:transparent;
 }
-.brandShow{
+/*.brandShow{
 	visibility: visible;
 }
 
 .brandHide{
 	visibility: hidden;
-}
+}*/
 
 #contact .col-md-12 {
 	text-decoration: none;
