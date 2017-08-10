@@ -169,8 +169,12 @@ ul li:hover {
   margin:10px 0px;
 }
 
+#social {
+	min-height: calc(100vh - 120px);
+}
+
 #social img, #contact img {
-	height: 150px;
+	height: 130px;
 	margin-top: 10px;
 }
 
