@@ -37,6 +37,10 @@ body {
 .elieNav, .navbar-header {
 	height:70px;
 }
+
+.navbar-default .navbar-nav > li > a:focus {
+	color:#808080;
+}
 ul li {
 	font-size: 18px;
 }
@@ -90,6 +94,8 @@ ul li, ul li:hover, .active {
 	padding-top: 40px;
 
 }
+
+
 
 .pitch div {
 	display: inline-block;
