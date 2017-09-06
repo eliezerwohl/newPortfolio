@@ -37,6 +37,10 @@ body {
 .elieNav, .navbar-header {
 	height:70px;
 }
+
+.navbar-default .navbar-nav > li > a:focus {
+	color:#808080;
+}
 ul li {
 	font-size: 18px;
 }
@@ -90,6 +94,8 @@ ul li, ul li:hover, .active {
 	padding-top: 40px;
 
 }
+
+
 
 .pitch div {
 	display: inline-block;
@@ -167,8 +173,12 @@ ul li:hover {
   margin:10px 0px;
 }
 
+#social {
+	min-height: calc(100vh - 120px);
+}
+
 #social img, #contact img {
-	height: 150px;
+	height: 130px;
 	margin-top: 10px;
 }
 
